@@ -1,0 +1,76 @@
+  .heading
+  {
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    cursor: not-allowed;
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div
+  {
+    cursor: not-allowed;
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    float: none;
+    padding: 10px;
+    box-shadow:5px 5px 5px grey;
+  }
+
+  .heading_div2
+  {
+    cursor: not-allowed;
+    font-size: 20px ;
+  }
+  .result_para_tag
+  {
+    cursor: not-allowed;
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  .result_para_tag span
+  {
+    white-space: pre-line;
+    cursor: not-allowed;
+  }
+  canvas
+  {
+    position: fixed;
+    border: 5px groove #fcd303;
+    border-radius: 15px;
+    margin-top: 140px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  .copy_right_footer
+  {
+    font-size: 16px;
+    background-color: aqua;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    cursor: none;
+  }
+  .copy_right_footer:hover{
+    font-size: 30px;
+    background-color: blanchedalmond;
+    color: crimson;
+  
+  }
+  @keyFrames example2{
+    from{font-size: 20px;color: whitesmoke; background-color: black;}
+    to{font-size: 35px; color: black; background-color: blanchedalmond;}
+  }
+ @keyFrames example{
+   from{box-shadow: 5px 6px 10px #ff2626;}
+   to{box-shadow: 5px 6px 10px #88ff26;}
+ }
